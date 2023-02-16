@@ -18,7 +18,7 @@ export default class Porfolio extends Component {
                       <div className="item-wrap">
                         <a href={item.url} >
                           <img
-                            src={`../images/portfolio/${item.imgurl}.jpg`}
+                            src={`../images/portfolio/${item.imgurl}.JPG`}
                             className="item-image"
                             alt= {item.description}link= {`${item.url}`}
                           />
