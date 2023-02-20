@@ -1,31 +1,32 @@
 import React, { Component } from "react";
+import projectData from "../projectData";
+
 export default class Porfolio extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+    let projectData = this.props.projectData;
     return (
-      <section id="portfolio">
+      <section id="projects">
         <div className="row">
           <div className="twelve columns collapsed">
             <h1>Check Out Some of My Works.</h1>
             <div
-              id="portfolio-wrapper"
+              id="projects-wrapper"
               className="bgrid-halves s-bgrid-halves cf"
             >
-              {resumeData.portfolio &&
-                resumeData.portfolio.map((item) => {
+              {projectData.projects &&
+                projectData.projects.map((item) => {
                   return (
-                    <div className="columns portfolio-item" key={item.name}>
+                    <div className="columns projects-item" key={item.name}>
                       <div className="item-wrap">
-                        <a href={`https://${item.url}`} >
+                        <a href={`https://${item.url}`}>
                           <img
-                            src={`./images/portfolio/${item.imgurl}.JPG`}
+                            src={`./images/projects/${item.imgurl}.JPG`}
                             className="item-image"
-                            alt= {item.description}
+                            alt={item.description}
                           />
                           <div className="overlay">
-                            <div className="portfolio-item-meta">
-                              <h5>{item.name}
-                              </h5>
+                            <div className="projects-item-meta">
+                              <h5>{item.name}</h5>
                               <p>{item.description}</p>
                               <button href={`https://${item.url}`} />
                             </div>
