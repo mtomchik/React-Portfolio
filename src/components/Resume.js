@@ -44,7 +44,7 @@ export default class Resume extends Component {
                 return (
                   <div className="row item" key={item.employer}>
                     <div className="twelve columns">
-                      <h3>{item.employer}</h3>
+                      <h3>{item.employer}</h3>personalData
                       <p className="info">
                         {item.specialization}
                         <span>&bull;</span>{" "}
