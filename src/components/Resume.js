@@ -76,7 +76,7 @@ export default class Resume extends Component {
                     return (
                       <li key={item.skillname}>
                         <span
-                          className={`bar-expand ${item.skillname.toLowerCase()}`}
+                          className={`bar-expand css`}
                         ></span>
                         <em>{item.skillname}</em>
                       </li>
