@@ -11,7 +11,7 @@ export default class Porfolio extends Component {
             <h1>Check Out Some of My Works.</h1>
             <div
               id="projects-wrapper"
-              className="bgrid-halves bgrid-halves cf"
+              className="bgrid-halves"
             >
               {projectData.projects &&
                 projectData.projects.map((item) => {

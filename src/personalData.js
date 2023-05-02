@@ -4,7 +4,7 @@ let personalData = {
   role: "Fullstack Developer",
   linkedinId: "https://www.linkedin.com/in/matt-tomchik/",
   roleDescription:
-    "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "As a Full Stack Web Developer with a background in healthcare and customer service, I bring extensive experience in fast-paced environments and interpersonal communication. I am adept at both team and individual problem-solving, and possess strong technical skills in HTML, CSS, JavaScript, Handlebars, SQL, Node.js, MongoDB, and React. I enjoy spending time with my wife and 3 kiddos either building and painting models or playing videogames.",
   socialLinks: [
     {
       name: "linkedin",
